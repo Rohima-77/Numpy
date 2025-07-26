@@ -1,0 +1,18 @@
+# Cell 5: arange and linspace
+"""
+## arange and linspace Functions
+
+- `arange`: Return evenly spaced values within interval
+- `linspace`: Return num evenly spaced samples over interval
+"""
+# arange (similar to range but returns array)
+arr = np.arange(0, 10, 2)  # start, stop, step
+print("arange(0,10,2):", arr)
+
+# linspace (specify number of points)
+lin_arr = np.linspace(0, 1, 5)  # start, stop, num_points
+print("\nlinspace(0,1,5):", lin_arr)
+
+# Useful for plotting
+x = np.linspace(0, 2*np.pi, 100)
+y = np.sin(x)
