@@ -1,0 +1,22 @@
+
+Introduction to NumPy
+
+What is NumPy?
+NumPy (Numerical Python) is Python's fundamental package for scientific computing. It provides:
+
+A powerful N-dimensional array object (ndarray)
+
+Tools for integrating C/C++ and Fortran code
+
+Useful linear algebra, Fourier transform, and random number capabilities
+
+
+Key Features
+1.Fast array processing - Much faster than Python lists
+
+2.Vectorized operations - Apply operations to entire arrays without loops
+
+3.Broadcasting - Perform operations on arrays of different shapes
+
+4.Linear algebra tools - Matrix operations, decompositions, etc.
+
