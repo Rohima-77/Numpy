@@ -1,0 +1,13 @@
+#creating basic Arrays
+
+
+import numpy as np
+
+arr1d = np.array([1, 2, 3, 4, 5])  # 1D array
+
+arr2d = np.array([[1, 2, 3], [4, 5, 6]])  # 2D array
+
+print("1D Array:\n", arr1d)
+print("\n2D Array:\n", arr2d)
+print("\nArray shape:", arr2d.shape)
+print("Array dtype:", arr2d.dtype)
