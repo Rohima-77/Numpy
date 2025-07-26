@@ -1,0 +1,22 @@
+# Cell 8: Aggregation Functions
+"""
+## Aggregation Functions
+
+- max(): Maximum value
+- min(): Minimum value
+- argmax(): Index of maximum value
+- argmin(): Index of minimum value
+"""
+data = np.array([3, 1, 4, 1, 5, 9, 2])
+
+print("Array:", data)
+print("Max value:", data.max())
+print("Min value:", data.min())
+print("Index of max:", data.argmax())
+print("Index of min:", data.argmin())
+
+# For 2D arrays (can specify axis)
+matrix = np.random.rand(3, 4)
+print("\nMatrix:\n", matrix)
+print("\nColumn maxima:", matrix.max(axis=0))
+print("Row minima:", matrix.min(axis=1))
